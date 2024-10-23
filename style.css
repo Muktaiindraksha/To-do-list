@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: lightcyan;
+}
+
+.header {
+    background-color: gray;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 80px;
+}
+
+.header img {
+    height: 40px;
+    padding-right: 1149px;
+    position: relative;
+    bottom: 60px;
+}
+
+#icon{
+    padding-left: 1150px;
+    padding-top: 10px;
+    font-size: 25px;
+}
+.containers{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 28px;
+}
+
+.contains{
+    text-align: center;
+    flex: 1 1 200px;
+    max-width: 250px;
+    margin: 10px;
+}
+
+#first{
+    padding-bottom: 4px;
+    border-bottom: 1.8px solid gray;
+}
+#second2{
+    padding-bottom: 4px;
+    border-bottom: 1.8px solid gray;
+}
+#third{
+    padding-bottom: 4px;
+    border-bottom: 1.8px solid gray;
+}
+
+.count {
+    font-size: 32px;
+    font-weight: bold;
+    color: #0097a7;
+}
+
+.determine {
+    font-size: 17px;
+    color: #666;
+}
+
+#clock {
+    max-width: 25%;
+    margin: 2rem auto;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(53, 113, 116, 0.9);
+    border-radius: 10px;
+}
+
+#clock span {
+    font-size: 30px;
+}
+
+.container {
+    width: 300px;
+    margin: 0 auto;
+    padding: 30px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    box-shadow:inset;
+    margin-top: 30px;
+}
+.input {
+    margin-bottom: 10px;
+}
+button{
+    font-size: 16px;
+    padding-right: 30px;
+    padding-left: 22px;
+    color: #0097a7;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+.text ul {
+    list-style: none;
+    padding: 0;
+}
+.text ul li {
+    margin-bottom: 5px;
+}
